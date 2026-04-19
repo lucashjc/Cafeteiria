@@ -47,7 +47,7 @@ section {
 .navbar a {
     margin: 0 1rem;
     font-size: 1.8rem;
-    color: #000;
+    color: #fff;
 }
 
 .navbar a:hover {
@@ -65,4 +65,38 @@ section {
 .icons img:hover {
     width: 40px;
     height: 40px;
+}
+
+.btn {
+    background: var(--main-color);
+    color: #087618;
+    padding: 1rem 3rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.home-container {
+    background: url("./img/home-img1.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 6rem;
 }
